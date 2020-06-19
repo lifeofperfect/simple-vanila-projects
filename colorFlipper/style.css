@@ -1,0 +1,19 @@
+#click {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+}
+
+.align {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 50%;
+}
+
+#color {
+  color: #fff;
+}

@@ -1,0 +1,58 @@
+.center {
+  font-weight: bolder;
+  font-size: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  top: 35%;
+  bottom: 65%;
+  left: 50%;
+  right: 50%;
+}
+
+.center-num {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+}
+
+.decrease {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.increase {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.reset {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.center-btn {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 60%;
+  left: 50%;
+  right: 50%;
+}
+
+p {
+  font-weight: bolder;
+  font-size: 80px;
+}
