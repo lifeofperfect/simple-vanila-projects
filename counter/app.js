@@ -6,16 +6,16 @@ let number = 0;
 
 btns.forEach((btn) => {
   btn.addEventListener("click", (e) => {
-    let button = e.currentTarget.classList;
-    if (button.contains("decrease")) {
+    let action = e.currentTarget.classList;
+    if (action.contains("decrease")) {
       number--;
-    } else if (button.contains("reset")) {
+    } else if (action.contains("reset")) {
       number = 0;
-    } else if (button.contains("increase")) {
+    } else {
       number++;
     }
     if (number >= 1) {
-      value.style.color = "green";
+      value.style.color = "Green";
     }
     if (number == 0) {
       value.style.color = "black";
